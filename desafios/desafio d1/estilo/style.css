@@ -55,6 +55,11 @@ nav > a {
     transition-duration: .5s;
 }
 
+nav >a:hover {
+    background-color: #829FD9;
+    color: #273273;
+}
+
 
 ol {
     background-color: #829FD9;
@@ -71,6 +76,7 @@ main {
 }
 
 main img {
+    width: 100%;
     display: block;
     margin: auto;
 }
